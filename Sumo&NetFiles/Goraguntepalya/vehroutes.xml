@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-19 07:31:53 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\manut\Sumo\2024-10-19-07-31-48\osm.net.xml.gz"/>
+        <route-files value="C:\Users\manut\Sumo\2024-10-19-07-31-48\trips.trips.xml"/>
+        <additional-files value="C:\Users\manut\Sumo\2024-10-19-07-31-48\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\manut\Sumo\2024-10-19-07-31-48\vehroutes.xml"/>
+        <stop-output value="C:\Users\manut\Sumo\2024-10-19-07-31-48\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\manut\Sumo\2024-10-19-07-31-48\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0_subway_Green:0" type="pt_subway" depart="15.00" departLane="0" arrival="141.00">
+        <route edges="607901300"/>
+        <stop busStop="5760198626" duration="30.00"/>
+        <stop busStop="5760198625" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="1_subway_Green:1" type="pt_subway" depart="133.00" departLane="0" arrival="259.00">
+        <route edges="-549256489"/>
+        <stop busStop="-3379412454" duration="30.00"/>
+        <stop busStop="-668972579" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="2_subway_Green:2" type="pt_subway" depart="165.00" departLane="0" arrival="293.00">
+        <route edges="607901300"/>
+        <stop busStop="5760198626" duration="30.00"/>
+        <stop busStop="5760198625" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="3_subway_Green:3" type="pt_subway" depart="383.00" departLane="0" arrival="509.00">
+        <route edges="-549256489"/>
+        <stop busStop="-3379412454" duration="30.00"/>
+        <stop busStop="-668972579" duration="30.00"/>
+    </vehicle>
+
+</routes>

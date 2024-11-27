@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-19 07:35:54 by Eclipse SUMO netconvert Version 1.21.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertPedestrians.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="10853180817" name="Jayadeva Hospital" lane="40633857#1_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-40692890#4_0" pos="21.97" length="22.73" friendlyPos="1"/>
+        <access lane="-40692890#5_0" pos="100.40" length="52.14" friendlyPos="1"/>
+        <access lane="323470681_0" pos="0.00" length="49.64" friendlyPos="1"/>
+        <access lane="473936644#0_0" pos="206.50" length="20.92" friendlyPos="1"/>
+        <access lane="473936644#1_0" pos="0.00" length="37.33" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10853180818" name="MICO Layout" lane="237025639#0_0" startPos="0.00" endPos="4.78" friendlyPos="true">
+        <access lane="-1227719146_0" pos="8.65" length="83.31" friendlyPos="1"/>
+        <access lane="1227719146_0" pos="0.00" length="84.58" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9904111102" name="Jayanagara 9th East Circle" lane="40692890#0_0" startPos="9.65" endPos="24.65" friendlyPos="true">
+        <access lane="-332243839_0" pos="0.00" length="47.21" friendlyPos="1"/>
+        <access lane="-40692890#0_0" pos="10.74" length="2.25" friendlyPos="1"/>
+        <access lane="-40692890#1_0" pos="27.37" length="37.75" friendlyPos="1"/>
+        <access lane="-40692890#2_0" pos="25.40" length="100.37" friendlyPos="1"/>
+        <access lane="-40692890#3_0" pos="24.24" length="159.90" friendlyPos="1"/>
+    </busStop>
+</additional>

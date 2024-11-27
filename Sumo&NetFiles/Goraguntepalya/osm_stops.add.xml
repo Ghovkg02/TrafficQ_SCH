@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-19 07:31:52 by Eclipse SUMO netconvert Version 1.21.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-3379412454" name="Peenya" lane="-549256489_0" startPos="0.00" endPos="200.00" friendlyPos="true">
+        <access lane="-1096263892_0" pos="59.20" length="58.51" friendlyPos="1"/>
+        <access lane="-994964430_0" pos="6.07" length="100.63" friendlyPos="1"/>
+        <access lane="1096263892_0" pos="56.07" length="63.31" friendlyPos="1"/>
+        <access lane="90840921#7_0" pos="71.29" length="87.49" friendlyPos="1"/>
+        <access lane="994964430_0" pos="39.95" length="95.78" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-668972579" name="Goraguntepalya" lane="-549256489_0" startPos="905.63" endPos="1105.63" friendlyPos="true">
+        <access lane="-1317513751_0" pos="0.00" length="32.62" friendlyPos="1"/>
+        <access lane="1280805517#0_0" pos="68.08" length="17.02" friendlyPos="1"/>
+        <access lane="1280805517#1_0" pos="0.00" length="37.74" friendlyPos="1"/>
+        <access lane="1290947674_0" pos="0.00" length="37.49" friendlyPos="1"/>
+        <access lane="1317513751_0" pos="74.39" length="36.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="11231119948" name="Reliance Petrol Bunk Goraguntepalya" lane="1312998593#0_0" startPos="120.08" endPos="135.08" friendlyPos="true">
+        <access lane="-1096251885_0" pos="0.00" length="23.73" friendlyPos="1"/>
+        <access lane="-1096251886_0" pos="0.00" length="45.46" friendlyPos="1"/>
+        <access lane="-38968937#5_0" pos="0.00" length="69.32" friendlyPos="1"/>
+        <access lane="1096251885_0" pos="52.71" length="24.41" friendlyPos="1"/>
+        <access lane="1096251886_0" pos="44.64" length="41.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="11603221286" name="Goraguntepalya" lane="36675444#9_0" startPos="23.01" endPos="38.01" friendlyPos="true"/>
+    <busStop id="11607676785" name="Reliance Petrol Bunk Goraguntepalya" lane="327581096#5_0" startPos="21.98" endPos="36.98" friendlyPos="true">
+        <access lane="-1096251886_0" pos="0.00" length="57.23" friendlyPos="1"/>
+        <access lane="-38968937#5_0" pos="0.00" length="38.80" friendlyPos="1"/>
+        <access lane="1096251886_0" pos="44.64" length="61.97" friendlyPos="1"/>
+        <access lane="38968937#5_0" pos="43.67" length="35.52" friendlyPos="1"/>
+        <access lane="47988585#5_0" pos="98.58" length="53.66" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2432532299" name="CMTI Goragunte Palya" lane="379878516#0_0" startPos="0.00" endPos="25.00" friendlyPos="true">
+        <access lane="-693792651#0_0" pos="0.20" length="107.06" friendlyPos="1"/>
+        <access lane="1093037115_0" pos="99.93" length="22.38" friendlyPos="1"/>
+        <access lane="1312998592_0" pos="54.57" length="39.08" friendlyPos="1"/>
+        <access lane="693792651#0_0" pos="0.00" length="102.51" friendlyPos="1"/>
+        <access lane="693792651#1_0" pos="0.00" length="106.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2432536810" name="Goraguntepalya" lane="383031432#1_0" startPos="184.77" endPos="199.77" friendlyPos="true">
+        <access lane="-1096263876_0" pos="8.46" length="32.00" friendlyPos="1"/>
+        <access lane="-249191021#7_0" pos="30.97" length="43.09" friendlyPos="1"/>
+        <access lane="-693792656#12_0" pos="84.31" length="39.20" friendlyPos="1"/>
+        <access lane="1096263876_0" pos="0.00" length="34.47" friendlyPos="1"/>
+        <access lane="693792656#12_0" pos="101.99" length="44.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3379412454" name="Peenya" lane="135267124_0" startPos="1008.74" endPos="1208.74" friendlyPos="true">
+        <access lane="-1096263892_0" pos="59.20" length="58.51" friendlyPos="1"/>
+        <access lane="-994964430_0" pos="6.07" length="100.63" friendlyPos="1"/>
+        <access lane="1096263892_0" pos="56.07" length="63.31" friendlyPos="1"/>
+        <access lane="90840921#7_0" pos="71.29" length="87.49" friendlyPos="1"/>
+        <access lane="994964430_0" pos="39.95" length="95.78" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3830964327" name="Guragunte Palya Cross" lane="1012972750#1_0" startPos="20.01" endPos="35.01" friendlyPos="true">
+        <access lane="-1096263877_0" pos="25.54" length="43.07" friendlyPos="1"/>
+        <access lane="-249191021#7_0" pos="11.17" length="25.56" friendlyPos="1"/>
+        <access lane="-249191021#8_0" pos="33.10" length="33.94" friendlyPos="1"/>
+        <access lane="249191021#7_0" pos="26.98" length="30.36" friendlyPos="1"/>
+        <access lane="249191021#8_0" pos="0.00" length="38.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5760198625" name="Peenya" lane="607901300_0" startPos="1102.64" endPos="1302.64" friendlyPos="true" lines="Green">
+        <access lane="-1096263892_0" pos="59.63" length="72.51" friendlyPos="1"/>
+        <access lane="1096263892_0" pos="55.65" length="77.31" friendlyPos="1"/>
+        <access lane="1227415965#0_0" pos="11.23" length="105.18" friendlyPos="1"/>
+        <access lane="90840921#7_0" pos="71.29" length="73.48" friendlyPos="1"/>
+        <access lane="994964430_0" pos="39.95" length="109.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5760198626" name="Goraguntepalya" lane="607901300_0" startPos="196.80" endPos="396.80" friendlyPos="true" lines="Green">
+        <access lane="-1313185906_0" pos="14.79" length="38.24" friendlyPos="1"/>
+        <access lane="1280805517#0_0" pos="68.29" length="31.04" friendlyPos="1"/>
+        <access lane="1313185906_0" pos="0.00" length="35.35" friendlyPos="1"/>
+        <access lane="36675444#3_0" pos="152.00" length="24.95" friendlyPos="1"/>
+        <access lane="36675444#4_0" pos="0.00" length="38.07" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6631824073" name="CMTI Goragunte Palya" lane="1148450802#0_0" startPos="36.94" endPos="51.94" friendlyPos="true">
+        <access lane="1093037115_0" pos="109.45" length="46.14" friendlyPos="1"/>
+        <access lane="1312998590_0" pos="0.20" length="86.61" friendlyPos="1"/>
+        <access lane="1312998592_0" pos="44.26" length="15.01" friendlyPos="1"/>
+        <access lane="36675444#10_0" pos="265.88" length="105.15" friendlyPos="1"/>
+        <access lane="693792651#0_0" pos="0.00" length="112.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6631824081" name="Goraguntepalya" lane="90840911#2_0" startPos="23.13" endPos="38.13" friendlyPos="true">
+        <access lane="-1096263804_0" pos="50.57" length="45.58" friendlyPos="1"/>
+        <access lane="1096263804_0" pos="0.00" length="41.32" friendlyPos="1"/>
+        <access lane="1290478525#1_0" pos="2.60" length="50.32" friendlyPos="1"/>
+        <access lane="36675444#10_0" pos="0.00" length="47.82" friendlyPos="1"/>
+        <access lane="36675444#9_0" pos="30.32" length="17.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6654524766" name="Goraguntepalya" lane="1055599191#1_0" startPos="126.31" endPos="141.31" friendlyPos="true">
+        <access lane="1280805517#1_0" pos="38.80" length="14.20" friendlyPos="1"/>
+        <access lane="1280805517#2_0" pos="1.46" length="10.38" friendlyPos="1"/>
+        <access lane="1290947672_0" pos="2.01" length="25.02" friendlyPos="1"/>
+        <access lane="1290947673_0" pos="8.70" length="16.23" friendlyPos="1"/>
+        <access lane="1290947675_0" pos="5.66" length="26.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="668972579" name="Goraguntepalya" lane="135267124_0" startPos="103.12" endPos="303.12" friendlyPos="true">
+        <access lane="-1317513751_0" pos="0.00" length="32.62" friendlyPos="1"/>
+        <access lane="1280805517#0_0" pos="68.08" length="17.02" friendlyPos="1"/>
+        <access lane="1280805517#1_0" pos="0.00" length="37.74" friendlyPos="1"/>
+        <access lane="1290947674_0" pos="0.00" length="37.49" friendlyPos="1"/>
+        <access lane="1317513751_0" pos="74.39" length="36.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9912846673" name="Goraguntepalya" lane="36675444#10_0" startPos="80.69" endPos="95.69" friendlyPos="true"/>
+</additional>

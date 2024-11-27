@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-19 07:35:57.155393 by osmWebWizard.py v1_21_0+0000-d7b3b481c43
+<configuration>
+    <net-file value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm.net.xml.gz"/>
+    <additional-files value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm_stops.add.xml,C:\Users\manut\Sumo\2024-10-19-07-35-51\osm_pt.rou.xml"/>
+    <output-trip-file value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm.pedestrian.trips.xml"/>
+    <route-file value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm.pedestrian.rou.xml"/>
+    <persontrips value="True"/>
+    <persontrip.walk-opposite-factor value="0.8"/>
+    <prefix value="ped"/>
+    <trip-attributes value="modes=&quot;public&quot;"/>
+    <vehicle-class value="pedestrian"/>
+    <fringe-factor value="1"/>
+    <insertion-density value="10.0"/>
+    <duarouter-weights.tls-penalty value="20"/>
+</configuration>
+-->
+
+<!-- generated on 2024-10-19 07:35:57 by Eclipse SUMO duarouter Version 1.21.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm.net.xml.gz"/>
+        <additional-files value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm_stops.add.xml,C:\Users\manut\Sumo\2024-10-19-07-35-51\osm_pt.rou.xml"/>
+        <route-files value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\manut\Sumo\2024-10-19-07-35-51\osm.pedestrian.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <weights.tls-penalty value="20"/>
+        <persontrip.walk-opposite-factor value="0.8"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped1" type="ped_pedestrian" depart="101.75">
+        <walk edges="-332243839" busStop="9904111102"/> <!-- Jayanagara 9th East Circle -->
+        <walk edges="-40692890#0 -40692890#1 -40692890#2 -40692890#3 -40692890#4 323470681 1314626739 1314626738 323470684#1 -323470684#1"/>
+    </person>
+    <person id="ped4" type="ped_pedestrian" depart="406.99">
+        <walk edges="-688878189#1 1109938934 -1109938934"/>
+    </person>
+    <person id="ped6" type="ped_pedestrian" depart="610.49">
+        <walk edges="-1109938934 688878189#2 -1314626738 1314626737 -323470681"/>
+    </person>
+    <person id="ped11" type="ped_pedestrian" depart="1119.23">
+        <walk edges="-40692890#4 323470681 1314626739 -1314626738"/>
+    </person>
+    <person id="ped13" type="ped_pedestrian" depart="1322.72">
+        <walk edges="-1109939170#1"/>
+    </person>
+    <person id="ped16" type="ped_pedestrian" depart="1627.96">
+        <walk edges="1109416314 1109416312 987157787#2"/>
+    </person>
+    <person id="ped19" type="ped_pedestrian" depart="1933.21">
+        <walk edges="688878189#0 -323470684#2 -1109938935 1109938935"/>
+    </person>
+    <person id="ped20" type="ped_pedestrian" depart="2034.96">
+        <walk edges="1314626739 1314626738 323470684#1 -1109938935"/>
+    </person>
+    <person id="ped21" type="ped_pedestrian" depart="2136.70">
+        <walk edges="-323470684#1 -1314626738 1314626737 -323470681 -40692890#4 -40692890#3 -40692890#2 -40692890#1 -40692890#0"/>
+    </person>
+    <person id="ped28" type="ped_pedestrian" depart="2848.94">
+        <walk edges="-1314832617 1314832617"/>
+    </person>
+    <person id="ped31" type="ped_pedestrian" depart="3154.18">
+        <walk edges="1109938934 688878189#2 1314626738"/>
+    </person>
+    <person id="ped32" type="ped_pedestrian" depart="3255.93">
+        <walk edges="473936644#0" busStop="10853180817"/> <!-- Jayadeva Hospital -->
+        <walk edges="323470681 1314626739 1314626738 323470684#1 323470684#2"/>
+    </person>
+    <person id="ped33" type="ped_pedestrian" depart="3357.68">
+        <walk edges="-323470684#1 -1109938935"/>
+    </person>
+    <person id="ped34" type="ped_pedestrian" depart="3459.43">
+        <walk edges="-40692890#2 -40692890#1 -40692890#0" busStop="9904111102"/> <!-- Jayanagara 9th East Circle -->
+        <walk edges="-332243839"/>
+    </person>
+</routes>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-19 07:31:52 by Eclipse SUMO netconvert Version 1.21.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="16176489" name="Green Line (Silk Institute -&gt; Peenya Industry)" line="Green" type="subway" vClass="subway" period="300" color="0,153,51" completeness="0.08" missingBefore="23" missingAfter="1">
+        <route edges="607901300"/>
+        <busStop id="5760198626" name="Goraguntepalya"/>
+        <busStop id="5760198625" name="Peenya"/>
+    </ptLine>
+    <ptLine id="16176490" name="Green Line (Peenya Industry -&gt; Silk Institute)" line="Green" type="subway" vClass="subway" period="300" color="0,153,51" completeness="0.08" missingBefore="1" missingAfter="23">
+        <route edges="-549256489"/>
+        <busStop id="-3379412454" name="Peenya"/>
+        <busStop id="-668972579" name="Goraguntepalya"/>
+    </ptLine>
+    <ptLine id="1798772" name="Green Line (Silk Institute -&gt; Nagasandra)" line="Green" type="subway" vClass="subway" period="600" color="0,153,51" completeness="0.07" missingBefore="23" missingAfter="4">
+        <route edges="607901300"/>
+        <busStop id="5760198626" name="Goraguntepalya"/>
+        <busStop id="5760198625" name="Peenya"/>
+    </ptLine>
+    <ptLine id="7842287" name="Green Line (Nagasandra -&gt; Silk Institute)" line="Green" type="subway" vClass="subway" period="600" color="0,153,51" completeness="0.07" missingBefore="4" missingAfter="23">
+        <route edges="-549256489"/>
+        <busStop id="-3379412454" name="Peenya"/>
+        <busStop id="-668972579" name="Goraguntepalya"/>
+    </ptLine>
+</ptLines>
