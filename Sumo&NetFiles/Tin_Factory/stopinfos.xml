@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-19 07:30:41 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\manut\Sumo\2024-10-19-07-30-36\osm.net.xml.gz"/>
+        <route-files value="C:\Users\manut\Sumo\2024-10-19-07-30-36\trips.trips.xml"/>
+        <additional-files value="C:\Users\manut\Sumo\2024-10-19-07-30-36\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\manut\Sumo\2024-10-19-07-30-36\vehroutes.xml"/>
+        <stop-output value="C:\Users\manut\Sumo\2024-10-19-07-30-36\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\manut\Sumo\2024-10-19-07-30-36\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="0_subway_Purple:0" type="pt_subway" lane="607901234_0" pos="220.64" parking="0" started="55.00" ended="85.00" busStop="10761647016" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_subway_Purple:1" type="pt_subway" lane="144106294_0" pos="212.60" parking="0" started="146.00" ended="176.00" busStop="4548694631" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="2_subway_Purple:2" type="pt_subway" lane="144106294_0" pos="98.07" parking="0" started="166.00" ended="196.00" busStop="4548694631" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_subway_Purple:3" type="pt_subway" lane="607901234_0" pos="220.63" parking="0" started="425.00" ended="455.00" busStop="10761647016" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+</stops>
